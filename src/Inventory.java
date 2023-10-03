@@ -46,6 +46,7 @@ public class Inventory {
         System.out.println("Slot #: ");
         int slot = Integer.parseInt(console.nextLine()) -1;
         if ( slot < 0 || slot >= backpack.length){
+
             return;
         }
         System.out.println("Item: ");
